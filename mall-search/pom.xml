@@ -28,12 +28,12 @@
         </dependency>
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
+<!--    <build>-->
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--                <groupId>org.springframework.boot</groupId>-->
+<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--            </plugin>-->
             <!--<plugin>-->
                 <!--<groupId>com.spotify</groupId>-->
                 <!--<artifactId>docker-maven-plugin</artifactId>-->
@@ -62,8 +62,8 @@
                     <!--</resources>-->
                 <!--</configuration>-->
             <!--</plugin>-->
-        </plugins>
-        <defaultGoal>compile</defaultGoal>
-    </build>
+<!--        </plugins>-->
+<!--        <defaultGoal>compile</defaultGoal>-->
+<!--    </build>-->
 
 </project>
