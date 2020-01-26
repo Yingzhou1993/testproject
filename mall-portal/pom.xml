@@ -44,18 +44,18 @@
     </dependencies>
 
     <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>repackage</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--                <groupId>org.springframework.boot</groupId>-->
+<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <goals>-->
+<!--                            <goal>repackage</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
             <!--<plugin>-->
                 <!--<groupId>com.spotify</groupId>-->
                 <!--<artifactId>docker-maven-plugin</artifactId>-->
@@ -84,7 +84,8 @@
                     <!--</resources>-->
                 <!--</configuration>-->
 <!--            &lt;!&ndash;</plugin>&ndash;&gt;-->
-        </plugins>
+<!--        </plugins>-->
+        <defaultGoal>compile</defaultGoal>
     </build>
 
 
